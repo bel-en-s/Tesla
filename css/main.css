@@ -13,8 +13,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 p {
-	font-size: 14px;
-	line-height: 22.4px;
+	font-size: 24px;
+	line-height: 30px;
 	color: #6c7279;
 }
 h1 {
@@ -78,6 +78,7 @@ body {
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 400;
 	color: #fff;
+	overflow-x:hidden;
 }
 ul, ol {
 	margin: 0;
@@ -89,6 +90,7 @@ ul li {
 .section {
 	padding: 50px 0;
 }
+
 
 .no-padding {
 	padding: 0;
@@ -495,9 +497,26 @@ ul li {
 #portfolio * {
 	z-index: 2;
 }
+
+
+
 /* ------------------------------------------------------------------------------
-	 Service
+workshop
 -------------------------------------------------------------------------------*/
+
+
+#workshop{
+	height:90vh;
+	border: 1px solid red;
+}
+
+#about{
+	height:90vh;
+	border: 1px solid red;
+}
+
+
+
 .service {
 	margin-bottom: 50px;
 }
@@ -564,4 +583,18 @@ ul li {
 .img-portfolio{
 	width:100%;
 	height:350px;
+}
+
+.frase{
+	background-color:#892ca0;
+	color:white;
+	padding:20px;
+}
+
+.frase h4{
+	color:white;
+}
+
+.image-container img{
+	width:100%;
 }

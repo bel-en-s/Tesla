@@ -1,0 +1,135 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Academia Tesla</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- header top section -->
+<section class="banner" role="banner">
+  <header id="header">
+    <div class="header-content clearfix"> <a href="index.html"><img class="logo" src="images/logo.png"></a>
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+          <li><a href="#hero">workshops</a></li>
+          <li><a href="#workshops">cursos</a></li>
+          <li><a href="#about">sobre nosotros</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+</section>
+
+<section id="hero" class="section-hero">
+  <div class="container-hero">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 hero">
+        <div class="hero-content">
+          <div class="button-container">
+            <div class='button -flower center'>contáctanos</div>
+          </div>
+          <h1 class="hero-title">arte + juego + tecnología</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="workshops">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <hr class="section">
+        <h2 class="title">Workshops</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 portfolio-item"> <a href="work-details.html" class="portfolio-link">
+        <img src="images/portfolio/workshop1.jpg" class="img-portfolio" alt=""> 
+        <h4>herramientas para imaginar</h4>
+      </a> 
+      </div>
+      <div class="col-sm-6 portfolio-item"> <a href="work-details.html" class="portfolio-link">
+        <img src="images/portfolio/robot4.JPG" class="img-portfolio" alt=""> 
+        <h4>herramientas para imaginar</h4>
+      </a> 
+      </div>
+  </div>
+  <div class="row">
+   
+</div>
+</section>
+
+<section id="cursos">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="title">Cursos</h2>
+        <p>Cursos</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="title">Sobre Nosotros</h2>
+        <p>Información sobre la academia...</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer section -->
+<footer class="footer">
+  <div class="container">
+    <div class="col-md-6 left">
+      <h4>Academia Tesla</h4>
+      <p> 612.269.8419 <a href="mailto:hello@agency.com"> contacto@academiatesla.net</a></p>
+    </div>
+    <div class="col-md-6 right">
+      <p>© <script>document.write(new Date().getFullYear());</script> All rights reserved.<br>
+      <p>design by o-o<br>
+    </div>
+  </div>
+</footer>
+
+<!-- JS FILES -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Smooth Scrolling Script -->
+<script>
+  $(document).ready(function(){
+      $('a[href="#cursos"]').on('click', function(event) {
+          event.preventDefault();
+          $('html, body').stop().animate({
+              scrollTop: $("#cursos").offset().top
+          }, 1000);
+      });
+  });
+</script>
+
+</body>
+</html>
